@@ -1,6 +1,6 @@
 # ZUA NEWS
 
-## 数据爬取
+## 数据获取
 爬取zua新闻网内容数据，并导入数据库中:  
 ```py
 import requests
