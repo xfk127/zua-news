@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shixi?serverTimezone=UTC&useSSL=false&useUnicode=true&charsetEncoding=UTF-8
+    username: root
+    password: qldxh
+  thymeleaf:
+    cache: false
+
+mybatis-plus:
+  mapper-locations: classpath:Mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080
