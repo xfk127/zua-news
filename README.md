@@ -200,7 +200,7 @@ pnpm dev
 
 ## 后端　　　
 springboot3   mysql  mybatis  
-基于 IDEA　Qoder ai完善编写  具体如下:   
+基于 IDEA　Qoder ai插件完善编写  具体如下:   
 1.你阅读整个项目理解下，并将项目按照config,controller,entity,entity下dto,vo;service,service下impl的项目结构，优化项目代码规范，不需要的目录只创建就行，不要硬写。  
 2.将config，放到创建common公共类中   
 3.你觉得未来这个新闻后台管理系统common目录，会写些什么模块，不用给代码  
