@@ -209,7 +209,7 @@ springboot3   mysql  mybatis
 6.我测试了下后端接口，感觉没问题，但前端有很多问题，我将前端代码放到的vue-shixi下，先理解分析。D:\springboot\demo\vue-shixi，就在该项目demo下  
 7.按照上述帮我修改  
 8.Solve the error:
-```declarative
+```
 com.example.xfk.common.exception.BusinessException: 未登录或登录已过期
 	at com.example.xfk.common.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:26) ~[classes/:na]
 	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146) ~[spring-webmvc-6.2.7.jar:6.2.7]
