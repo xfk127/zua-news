@@ -1,8 +1,8 @@
 # ZUA NEWS - 郑航新闻后台管理系统
 
 基于 Spring Boot 3 + Vue 3 的新闻后台管理系统，包含新闻数据的爬取、管理与展示功能。  
-前端脚手架参考：[v3-admin-vite](https://github.com/un-pany/v3-admin-vite)  。
-
+前端脚手架参考：[v3-admin-vite](https://github.com/un-pany/v3-admin-vite)  。  
+[后端golang版在这](https://github.com/xfk127/zua-news-golang)      
 ## 技术栈
 
 **后端**

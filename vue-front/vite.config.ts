@@ -7,7 +7,10 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import { resolve } from "node:path"
 
 // https://vite.dev/config/
+// GitHub Pages 部署时，base 需改为你的仓库名（如 '/demo/'）
+// 本地开发时保持 '/'
 export default defineConfig({
+  base: '/',
   plugins: [
     vue(),
     AutoImport({
